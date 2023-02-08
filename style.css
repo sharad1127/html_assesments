@@ -1,0 +1,187 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    /* justify-content: space-between; */
+}
+.logo{
+    position: relative;
+    left: 2.5vw;
+    height: 5vh;
+}
+.list-item p{
+    font-size: 1vw;
+}
+.heading h1{
+    position: relative;
+    left: 2vw;
+    font-size: 1.5vw;
+    margin-top: 1.5vw;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+#para{
+    padding-left: 2vw;
+}
+.images{
+    display: flex;
+    gap: 0.1;
+    margin-left: 4vw;
+    
+    
+}
+.images img{
+    width: 80%;
+    padding: 3vw;
+}
+.images2{
+    display: flex;
+    width: 90%;
+    padding-left: 3vw;
+    background-color: #FBFBFB;
+    margin-left: 3vw;
+}
+.images2 .text{
+    position: relative;
+    left: 3%;
+}
+.images2 .second{
+    position: relative;
+    left: 2%;
+}
+.onetwo{
+    padding-top: 1%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+input[type=text], select, textarea {
+    width: 90%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    background-color: #F3F3F3;
+    /* resize: vertical Allow the user to vertically resize the textarea (not horizontally) */
+  }
+
+  .container {
+    width: 40%;
+    border-radius: 5px;
+    padding: 20px;
+  }
+ 
+  form{
+    margin-left: 3vw;
+  }
+  .phone{
+    position: relative;
+    display: flex;
+    gap: 1%;
+    margin-left: 3vw;
+  }
+  hr{
+    margin-top: 3vw;
+  }
+
+.img1 img {
+    height: 50vh;
+    width: 60%;
+}
+#connect{
+    position: relative;
+    left: 3%;
+    margin-left: 3vw;
+}
+.container button{
+    justify-content: center;
+    padding: 1vw;
+    background-color: grey;
+    border: none;
+    width: 15vw;
+    margin-top: 2.5vw;
+    color: white;
+}
+.container img{
+    position: relative;
+    left: -4vw;
+    top: 0.5vw;
+}
+.slide{
+    margin-left: 5vw;
+    display: flex;
+}
+#first{
+    width: 5vw;
+    padding-right: 2vw;
+    height: 5vh;
+}
+.slide img{
+    width: 2vw;
+    height: 5vh;
+    padding-left: 1.3vw;
+}
+/* footer */
+footer{
+    background-color: black;
+    color: white;
+    font-size: 1.5vw;
+    padding-top: 2vw;
+    }
+
+h3 {
+    margin: 0;
+}
+button.footer-button {
+    background-color: black;
+    border: none;
+    border-radius: 2px;
+}
+img.List-o {
+    width: 7vw;
+    position: relative;
+    top: 2vw;
+}
+.list {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.base{
+    text-align: center;
+    margin: 0;
+    padding: 15px;
+}
+.logo img{
+    width: 5vw;
+    margin-top: 1vw;
+}
+.list-item {
+    display: flex;
+    gap: 3%;
+    width:100%;
+    justify-content: end;
+    align-items: center;
+    font-size: 1.5vw;
+}
+p.home {
+    margin-right: 20%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.List-1 {
+    font-size: 1vw;
+}
+.List-2 {
+    font-size: 1vw;
+}
+.base {
+    font-size: 1vw;
+}
